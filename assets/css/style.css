@@ -317,12 +317,11 @@ span.single-timeline-horizontal {
 }
 
 .portfolio-content {
-  margin-top: 100px;
-  padding: 0;
+  padding-top: 100px;
 }
 .portfolio-content .item {
-  width: 360px;
   display: block;
+  margin-bottom: 30px;
 }
 .contact {
   background: #f9fbfd;

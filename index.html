@@ -196,22 +196,28 @@
       <div class="portfolio-details">
         <div class="section-heading text-center"><h2>Arbeiten</h2></div>
         <div class="container portfolio-content">
-          <div id="portfolio-container">
-            <a class="item" href="#">
-              <img src="assets/images/portfolio/p1.jpg" alt="portfolio image" />
-            </a>
-            <a class="item" href="#">
-              <img src="assets/images/portfolio/p2.jpg" alt="portfolio image" />
-            </a>
-            <a class="item" href="#">
-              <img src="assets/images/portfolio/p3.jpg" alt="portfolio image" />
-            </a>
-            <a class="item" href="#">
-              <img src="assets/images/portfolio/p4.jpg" alt="portfolio image" />
-            </a>
-            <a class="item" href="#">
-              <img src="assets/images/portfolio/p5.jpg" alt="portfolio image" />
-            </a>
+          <div class="row">
+            <div class="col-sm-4">
+              <a class="item" href="#">
+                <img src="assets/images/portfolio/p1.jpg" alt="portfolio image" />
+              </a>
+              <a class="item" href="#">
+                <img src="assets/images/portfolio/p2.jpg" alt="portfolio image" />
+              </a>
+            </div>
+            <div class="col-sm-4">
+              <a class="item" href="#">
+                <img src="assets/images/portfolio/p3.jpg" alt="portfolio image" />
+              </a>
+            </div>
+            <div class="col-sm-4">
+              <a class="item" href="#">
+                <img src="assets/images/portfolio/p4.jpg" alt="portfolio image" />
+              </a>
+              <a class="item" href="#">
+                <img src="assets/images/portfolio/p5.jpg" alt="portfolio image" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -335,16 +341,5 @@
     <script src="assets/js/vendor/bootsnav.js"></script>
     <script src="assets/js/vendor/jquery.appear.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/vendor/magic-grid.min.js"></script>
-    <script>
-      let magicGrid = new MagicGrid({
-        container: '#portfolio-container',
-        static: true,
-        animate: false,
-        maxColumns: 3,
-      });
-
-      magicGrid.listen();
-    </script>
   </body>
 </html>
