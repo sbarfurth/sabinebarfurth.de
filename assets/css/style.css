@@ -352,6 +352,8 @@ span.single-timeline-horizontal {
   justify-content: center;
   height: 50px;
   margin-top: 3px;
+  color: #ffffff;
+  width: 100%;
   background: #009688;
   border: 1px solid #009688;
   cursor: pointer;
