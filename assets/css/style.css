@@ -129,7 +129,7 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 }
 .menu-ui-design {
   overflow-y: scroll;
-  height: 350px;
+  padding-bottom: 30px;
 }
 .menu-ui-design::-webkit-scrollbar {
   width: 5px;
@@ -255,7 +255,8 @@ nav.navbar.bootsnav .navbar-toggle i {
   background: rgba(31, 44, 108, 0.3);
 }
 .single-about-img img {
-  height: 468px;
+  width: 100%;
+  height: auto;
 }
 .about-name {
   display: flex;
@@ -418,6 +419,7 @@ span.single-timeline-horizontal {
   color: #888ea5;
   padding: 38px 0;
 }
+
 @media screen and (max-width: 1440px) {
   .single-about-img img {
     max-width: 100%;
@@ -446,7 +448,7 @@ span.single-timeline-horizontal {
     padding: 15px 0px;
     border: transparent;
   }
-} /*max-width:992px*/
+}
 
 @media screen and (max-width: 991px) {
   .experience-time,
@@ -454,6 +456,9 @@ span.single-timeline-horizontal {
     text-align: left;
     margin-bottom: 20px;
     margin-left: 40px;
+  }
+  .header-text h2 {
+    font-size: 44px;
   }
 
   .single-horizontal-timeline .experience-time,
@@ -464,11 +469,22 @@ span.single-timeline-horizontal {
 
 @media screen and (max-width: 767px) {
   .single-about-img {
-    max-width: 450px;
+    width: 100%;
+  }
+  .single-about-img img {
+    width: 100%;
+    height: auto;
+  }
+  .about-name {
+    height: 60px;
+    font-size: 1em;
   }
   .experience-time,
   .timeline-content {
     margin-left: 0;
+  }
+  .header-text h2 {
+    font-size: 34px;
   }
 
   .single-horizontal-timeline {
