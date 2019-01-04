@@ -110,12 +110,6 @@ nav.navbar.bootsnav {
   text-transform: uppercase;
 }
 
-nav.navbar.bootsnav.no-background .navbar-header a.navbar-brand,
-nav.navbar.bootsnav.no-background .navbar-header a.navbar-brand:hover,
-nav.navbar.bootsnav.no-background .navbar-header a.navbar-brand:focus {
-  color: #ffffff;
-}
-
 nav.navbar.bootsnav ul.nav > li > a {
   font-size: 16px;
   font-weight: 400;
@@ -128,18 +122,26 @@ nav.navbar.bootsnav ul.nav > li > a {
   padding: 35px 20px;
 }
 
-nav.navbar.bootsnav.no-background ul.nav > li > a {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-nav.navbar.bootsnav.no-background ul.nav > li > a:hover,
-nav.navbar.bootsnav.no-background ul.nav > li > a:focus {
-  color: #ffffff;
-}
-
 nav.navbar.bootsnav ul.nav > li > a:hover,
 nav.navbar.bootsnav ul.nav > li > a:focus {
   color: #009688;
+}
+
+@media (min-width: 992px) {
+  nav.navbar.bootsnav.no-background .navbar-header a.navbar-brand,
+  nav.navbar.bootsnav.no-background .navbar-header a.navbar-brand:hover,
+  nav.navbar.bootsnav.no-background .navbar-header a.navbar-brand:focus {
+    color: #ffffff;
+  }
+
+  nav.navbar.bootsnav.no-background ul.nav > li > a {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  nav.navbar.bootsnav.no-background ul.nav > li > a:hover,
+  nav.navbar.bootsnav.no-background ul.nav > li > a:focus {
+    color: #ffffff;
+  }
 }
 
 .menu-ui-design {
