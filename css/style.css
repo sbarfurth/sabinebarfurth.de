@@ -287,12 +287,12 @@ span.single-timeline-horizontal {
 }
 
 .quote-section {
-  padding: 150px;
+  padding: 150px 0;
   background-color: #009688;
 }
 
 .quote-section blockquote {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #fff;
   border-left: 0;
   padding: 0;
@@ -302,6 +302,12 @@ span.single-timeline-horizontal {
   line-height: 1.5;
   font-style: italic;
   font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .quote-section blockquote {
+    font-size: 2em;
+  }
 }
 
 .quote-section .author {
