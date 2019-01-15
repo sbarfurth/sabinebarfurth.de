@@ -59,12 +59,12 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand,
 .navbar-header a.navbar-brand:hover,
 .navbar-header a.navbar-brand:focus {
+  font-family: 'Oleo Script Swash Caps', sans-serif;
   display: inline-block;
   color: #009688;
-  font-size: 20px;
+  font-size: 2em;
   font-weight: bold;
   padding: 33px 0px 57px;
-  text-transform: uppercase;
 }
 
 nav.navbar.bootsnav ul.nav > li > a {
