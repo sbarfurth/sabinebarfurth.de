@@ -274,6 +274,13 @@ nav.navbar.bootsnav .navbar-toggle i {
   align-items: center;
   padding: 26px 0 30px;
 }
+
+@media (min-width: 768px) {
+  .timeline-horizontal-border {
+    margin-right: -25px;
+  }
+}
+
 .timeline-horizontal-border i {
   font-size: 10px;
   color: #009688;
@@ -337,10 +344,8 @@ span.single-timeline-horizontal {
   transition: all 300ms ease;
 }
 
-.service i {
-  font-size: 4em;
-  color: #3c4258;
-  transition: all 300ms ease;
+.service img {
+  height: 100px;
 }
 
 .service h3 {
