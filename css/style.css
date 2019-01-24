@@ -374,10 +374,45 @@ span.single-timeline-horizontal {
 .portfolio-content {
   padding-top: 100px;
 }
+
 .portfolio-content .item {
   display: block;
   margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
 }
+
+.portfolio-content .item .description {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 150, 136, 0.75);
+  z-index: 99;
+  opacity: 0;
+  transition: opacity 500ms ease;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.portfolio-content .item img {
+  transition: transform 500ms ease;
+}
+
+.portfolio-content .item:hover img {
+  transform: scale(1.1);
+}
+
+.portfolio-content .item:hover .description {
+  opacity: 1;
+}
+
 .contact {
   background: #f9fbfd;
   padding: 50px 0 100px;
