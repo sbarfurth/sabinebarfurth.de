@@ -281,8 +281,8 @@
                   Sicherung loser Farbschichten: Vorzustand
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p9.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p9.png"
                   alt="portfolio image"
                 />
               </span>
@@ -298,8 +298,8 @@
                   Halbseitige Freilegung
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p2.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p2.png"
                   alt="portfolio image"
                 />
               </span>
@@ -315,8 +315,8 @@
                   Malschicht gesichert: Vorzustand
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p7.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p7.png"
                   alt="portfolio image"
                 />
               </span>
@@ -327,8 +327,8 @@
                   Heiliger Franziskus: Endzustand
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p4.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p4.png"
                   alt="portfolio image"
                 />
               </span>
@@ -346,8 +346,8 @@
                   Amor und die Grazien: Vorzustand
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p5.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p5.png"
                   alt="portfolio image"
                 />
               </span>
@@ -365,8 +365,8 @@
                   Flora: Endzustand
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p10.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p10.png"
                   alt="portfolio image"
                 />
               </span>
@@ -382,8 +382,8 @@
                   Heiliger Georg: Arbeitsprobe
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p11.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p11.png"
                   alt="portfolio image"
                 />
               </span>
@@ -399,8 +399,8 @@
                   Endzustand
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p12.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p12.png"
                   alt="portfolio image"
                 />
               </>
@@ -418,8 +418,8 @@
                   Grablegung Jesu
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p13.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p13.png"
                   alt="portfolio image"
                 />
               </span>
@@ -430,8 +430,8 @@
                   Detail Endzustand
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p14.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p14.png"
                   alt="portfolio image"
                 />
               </span>
@@ -446,8 +446,8 @@
                   <p>Hamburg</p>
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p15.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p15.png"
                   alt="portfolio image"
                 />
               </span>
@@ -463,8 +463,8 @@
                   Salmomons Urteil
                 </div>
                 <img
-                  class="img-responsive"
-                  src="/images/portfolio/p16.png"
+                  class="img-responsive lazy"
+                  data-src="/images/portfolio/p16.png"
                   alt="portfolio image"
                 />
               </span>
@@ -597,5 +597,11 @@
     <script src="/vendor/js/bootsnav.js"></script>
     <script src="/vendor/js/jquery.appear.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.20.0/dist/lazyload.min.js"></script>
+    <script>
+      var myLazyLoad = new LazyLoad({
+        elements_selector: ".lazy"
+      });
+    </script>
   </body>
 </html>
