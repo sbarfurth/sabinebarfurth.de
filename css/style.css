@@ -187,7 +187,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 .about {
   padding: 50px 0 100px;
 }
-.about-content {
+.content {
   padding-top: 100px;
 }
 .single-about-txt h3 {
@@ -393,12 +393,28 @@ span.single-timeline-horizontal {
   z-index: 99;
   opacity: 0;
   transition: opacity 500ms ease;
-  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1em;
+  text-align: center;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1em;
+}
+
+.portfolio-content .item .description h4 {
   font-weight: bold;
   font-size: 1.3em;
+  color: #fff;
+  margin-bottom: 0.5em;
+}
+
+.portfolio-content .item .description p {
+  font-weight: bold;
+  font-size: 1.05em;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 0.25em;
 }
 
 .portfolio-content .item img {
