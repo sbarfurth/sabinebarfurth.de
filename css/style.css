@@ -229,10 +229,6 @@ nav.navbar.bootsnav .navbar-toggle i {
   height: 100%;
   background: rgba(31, 44, 108, 0.3);
 }
-.single-about-img img {
-  width: 100%;
-  height: auto;
-}
 .about-name {
   display: flex;
   justify-content: center;
@@ -381,6 +377,10 @@ span.single-timeline-horizontal {
   margin-bottom: 30px;
   overflow: hidden;
   position: relative;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 150, 136, 0.1);
+  color: transparent;
 }
 
 .portfolio-content .item .description {
@@ -420,10 +420,16 @@ span.single-timeline-horizontal {
 
 .portfolio-content .item img {
   transition: transform 500ms ease;
+  width: 100%;
+  position: absolute;
 }
 
 .portfolio-content .item:hover img {
   transform: scale(1.1);
+}
+
+img:not([src]) {
+  visibility: hidden;
 }
 
 .portfolio-content .item:hover .description {
@@ -524,15 +530,6 @@ span.single-timeline-horizontal {
 .hm-footer-copyright p {
   color: #888ea5;
   padding: 38px 0;
-}
-
-@media screen and (max-width: 1440px) {
-  .single-about-img img {
-    max-width: 100%;
-  }
-  .single-about-img:before {
-    width: 100%;
-  }
 }
 
 @media screen and (max-width: 1199px) {
